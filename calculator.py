@@ -37,3 +37,4 @@ def divide(a, b):
     return result
 
 # production version: 1.1
+# logging version: 1.0

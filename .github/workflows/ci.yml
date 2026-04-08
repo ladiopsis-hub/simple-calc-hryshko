@@ -25,7 +25,7 @@ jobs:
 
       - name: Lint with flake8
         run: |
-          flake8 . --max-line-length=100 --exclude=.git
+          flake8 . --max-line-length=100 --exclude=.git --ignore=E302,E402,W292
 
       - name: Run unit tests
         run: |

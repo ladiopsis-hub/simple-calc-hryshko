@@ -7,7 +7,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 from calculator import add, subtract, multiply, divide
 
 def test_add():
-    assert add(2, 3) == 999
+    assert add(2, 3) == 5.0
 
 def test_subtract():
     assert subtract(10, 4) == 6.0
